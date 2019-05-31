@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_view_adapter_sample"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    app:cardBackgroundColor="@android:color/holo_blue_dark"
+    app:cardCornerRadius="4dp">
+
+    <ImageView
+        android:id="@+id/itemImages"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/imageborderr"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+</LinearLayout>
+

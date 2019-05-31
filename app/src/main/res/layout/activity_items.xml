@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_view_adapter_sample"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@android:color/holo_blue_dark"
+    app:cardCornerRadius="4dp"
+    android:background="#F3E467">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:text="Item Details"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+
+
+    <ImageView
+
+        android:id="@+id/imagename"
+        android:layout_width="300dp"
+android:layout_weight="1"
+        android:background="@drawable/imageborderr"
+        android:layout_height="400dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Name:"
+        android:textSize="30dp"
+        android:textColor="#1631D1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/nameitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:layout_marginTop="30dp"
+        android:textColor="#1631D1"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/priceitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textColor="#1631D1"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/descitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center" />
+</LinearLayout>
+
